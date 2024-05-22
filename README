@@ -1,18 +1,39 @@
-Linux kernel
-============
+Linux kernel - UserFriendly
+===========================
 
-There are several guides for kernel developers and users. These guides can
-be rendered in a number of formats, like HTML and PDF. Please read
-Documentation/admin-guide/README.rst first.
+Hi, I'm Sam and I hate Linux. 
 
-In order to build the documentation, use ``make htmldocs`` or
-``make pdfdocs``.  The formatted documentation can also be read online at:
+Reason is that its completely anti-user Friendly, as much as DE's havbe improved in the past probably decade. After trying some of them 
+I found that my issues are not with the DE, but with some of the basic of how the Kernel works. Pretty much all the issues I had, were one 
+that only needed a simple script, or just small things to be adjusted, isntalled or added. But it annoyed the living crap out of me. So
+after going back and forth with Linux and with a little push of a colleague of mine, I decided Im going to try my luck in making Linux into
+ something id actually want to use. 
 
-    https://www.kernel.org/doc/html/latest/
+My qualifications:
+- Absolutely ducking none thats relevenat to Linux/OS/Kernel coding. 
+- 10+ years ago I coded a webpage for my church. 
+- I have installed brew about 4 times on my MacBook for trying differnt things.
+- The same colleague I mentioned above tried to get me interested in some Web-Dev Frameworks like React.js and Next.js. and I hated it and gave up on it within 2 days. 
+- Im paying for GPT 4o which will do most of the coding anyway. 
 
-There are various text files in the Documentation/ subdirectory,
-several of them using the reStructuredText markup notation.
+Goals:
+#1 I will most likely ruin any semblance of security. Its not intentional, but right now Id rather have something that actually works,
+ instead of something secure. Its not ike Windows and macOS are getting better in terms of telemtry. So this project is likely going to 
+be a security nightmare. 
+#2 As small as this issue realisticly is its annoying the living c* out of me: Mount the goddamn drives. I dont care where. If I plug in my SATA, but every 
+time I restart I need to mount it, or write a goddamn script to have that happen automatically - not with me. The only reasonable answer to the question of
+ "Where did you mount your drive" is "I plugged it in via *USB, Sata, NVME etc.*". 
+#3 My biggest reason for currently still running W10 is built in RDP with no extra steps, other than toggling a single button. So imma try to implement something 
+where RDP is automatically installed, active and functioning. No extra Steps. 
+#4 Permissions. I have wasted too many hours of my life figuring out what the hell plex cant access folders, why qemu cant create virtual disks or launch VM's and 
+similar stuff related to drive permissions - at least from what my research was able to figure out. Even worse: I was to stupid to figure out the solution, even 
+I had this figured out. So - with no regards to security whatsoever - imma make every single file available to every single thing, no matter what, so stuff like 
+this actually works. Security be damned. 
 
-Please read the Documentation/process/changes.rst file, as it contains the
-requirements for building and running the kernel, and information about
-the problems which may result by upgrading your kernel.
+
+Chances of reaching this goal: 1% or less. 
+
+Pray that AI gets good enough that I can at least come close to achieving at least one of these goals. 
+
+Annoyed regards,
+Sam 
